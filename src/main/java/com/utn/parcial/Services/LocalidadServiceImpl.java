@@ -5,6 +5,7 @@ import com.utn.parcial.Repositories.BaseRepository;
 import com.utn.parcial.Repositories.LocalidadRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 
+@Service
 public class LocalidadServiceImpl extends BaseServiceImpl<Localidad, Long> implements LocalidadService {
 
     @Autowired
